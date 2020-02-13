@@ -1,1 +1,1 @@
-http://thibault-maudet.ril.nte.ovh/contact.html
+http://thibault-maudet.ril.nte.ovh/index.html
