@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Madera Corporation</title>
+    <link href="http://fonts.googleapis.com/css?family=Chivo:400,900" rel="stylesheet" />
+    <link href="default.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="icon" href="./assets/logo.png" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header-wrapper">
+        <div id="header" class="container">
+          <a href="./index.html"
+            ><img src="./assets/logo.png" alt="Logo Madera"
+          /></a>
+        </div>
+      </div>
+      <div id="menu-wrapper">
+        <div id="menu" class="container">
+          <ul>
+            <li><a href="./index.html">Accueil</a></li>
+            <li class="current_page_item"><a href="#">Nous contacter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="page" class="container">
+        <div id="sidebar">
+          <div class="box2">
+            <div class="title">
+              <h2>Nous contacter</h2>
+            </div>
+            <p>Téléphone : 02 51 98 18 32</p>
+            <a href="mailto:contact@madera-construction.com"
+              >contact@madera-construction.com</a
+            >
+            <br />
+            <h3><u>Adresse</u></h3>
+            <p>Acti Est - ZA Les ajoncs</p>
+            <p>85000 La Roche sur Yon</p>
+          </div>
+        </div>
+        <div id="content">
+          <div class="title">
+            <h2>Contactez</h2>
+          </div>
+          <form class="well form-horizontal w3-container" action="contact.html" method="post" id="contact_form">
+            <div class="form-group">
+                <label class="col-md-4 control-label">Nom</label>
+                <div class="col-md-4 inputGroupContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <i class="glyphicon glyphicon-user"></i>
+                        </span>
+                        <input name="name" placeholder="Indiquer votre nom et prénom" class="form-control w3-input" type="text" required />
+                        <br/>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label">E-mail</label>
+                <div class="col-md-4 inputGroupContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <i class="glyphicon glyphicon-user"></i>
+                        </span>
+                        <input name="email" placeholder="Indiquer votre adresse e-mail" class="form-control w3-input" type="email" required />
+                        <br/>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label">Objet</label>
+                <div class="col-md-4 inputGroupContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <i class="glyphicon glyphicon-user"></i>
+                        </span>
+                        <input name="object" placeholder="Indiquer l'objet de votre message" class="form-control w3-input" type="text" required />
+                        <br/>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label">Message</label>
+                <div class="col-md-4 inputGroupContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <i class="glyphicon glyphicon-user"></i>
+                        </span>
+                        <input name="message" placeholder="Indiquer votre message" class="form-control w3-input" type="text" required />
+                        <br/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="alert alert-success" role="alert" id="success_message">
+                Succès <i class="glyphicon glyphicon-thumbs-up"></i> Merci de nous avoir contacter, nous vous réponderons dans les plus brefs délais.
+            </div>
+
+            <div class="form-group">
+            <label class="col-md-4 control-label"></label>
+            <div class="col-md-4">
+                <button class="w3-btn w3-blue-grey">Envoyer</button>
+                <br/>
+            </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer-wrapper">
+      <div id="footer" class="container">
+        <div id="box1">
+          <div class="title">
+            <h2>Dernières actualités</h2>
+          </div>
+          <ul class="style1">
+            <li><a href="#">Actualité 1</a></li>
+            <li><a href="#">Actualité 2</a></li>
+            <li><a href="#">Actualité 3</a></li>
+            <li><a href="#">Actualité 4</a></li>
+            <li><a href="#">Actualité 5</a></li>
+          </ul>
+        </div>
+
+        <div id="box3">
+          <div class="title">
+            <h2>Suivez-nous</h2>
+          </div>
+          <p>Vous pouvez suivre notre actualité sur les réseaux sociaux.</p>
+          <ul class="contact">
+            <li>
+              <a href="#" class="icon icon-twitter"><span>Twitter</span></a>
+            </li>
+            <li>
+              <a href="#" class="icon icon-facebook"><span>Facebook</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="copyright" class="container">
+      <p>
+        &copy; Madera. Tous droits reservés. | Développement par
+        <a target="_blank" href="https://www.github.com/thibaultmaudet"
+          >Thibault MAUDET</a
+        >.
+      </p>
+    </div>
+  </body>
+</html>
