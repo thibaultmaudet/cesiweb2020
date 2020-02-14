@@ -1,54 +1,47 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="fr">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Madera Corporation</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="robots" content="index, nofollow" />
+    <title>Madera Corporation - Nous contactez</title>
+    <link href="styles/fonts.css" rel="stylesheet" type="text/css" media="all" />    
     <link href="http://fonts.googleapis.com/css?family=Chivo:400,900" rel="stylesheet" />
-    <link href="default.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
-    <link rel="icon" href="./assets/logo.png" />
+    <link rel="stylesheet" href="styles/default.css" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="robots" content="noindex, nofollow">
+    <link rel="icon" href="assets/logo.png" />    
+    <script src="scripts/menu.js"></script>
   </head>
   <body>
-    <div id="wrapper">
-      <div id="header-wrapper">
-        <div id="header" class="container">
-          <a href="./index.html"
-            ><img src="./assets/logo.png" alt="Logo Madera"
-          /></a>
+    <header>
+      <nav id="cssmenu">
+        <div class="logo">
+          <a href="index.html"><img src="assets/logo.png" alt="Logo Madera"/></a>
         </div>
-      </div>
-      <div id="menu-wrapper">
-        <div id="menu" class="container">
-          <ul>
-            <li><a href="./index.html">Accueil</a></li>
-            <li class="current_page_item"><a href="#">Nous contacter</a></li>
-          </ul>
-        </div>
-      </div>
-      <div id="page" class="container">
-        <div id="sidebar">
-          <div class="box2">
-            <div class="title">
-              <h2>Nous contacter</h2>
-            </div>
-            <p>Téléphone : 02 51 98 18 32</p>
-            <a href="mailto:contact@madera-construction.com"
-              >contact@madera-construction.com</a
-            >
-            <br />
-            <h3><u>Adresse</u></h3>
-            <p>Acti Est - ZA Les ajoncs</p>
-            <p>85000 La Roche sur Yon</p>
+        <div id="head-mobile"></div>
+        <div class="button"></div>
+        <ul>
+          <li><a href="#">Accueil</a></li>
+          <li>
+            <a>Agences</a>
+            <ul>
+                <li><a href="./locations/annecy.html">Annecy</a></li>
+                <li><a href="./locations/dax.html">Dax</a></li>
+                <li><a href="./locations/lille.html">Lille</a></li>
+                <li><a href="./locations/magasins.html">Magasins</a></li>
+            </ul>
+          </li>
+          <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+        <h2 class="title"><span>Contactez-nous</span></h2>
+        <div class="title">
+            <h2>Nous contactez</h2>
           </div>
-        </div>
-        <div id="content">
-          <div class="title">
-            <h2>Contactez</h2>
-          </div>
-          <form class="well form-horizontal w3-container" action="contact.html" method="post" id="contact_form">
+          <form class="well form-horizontal w3-container" action="contact.html" method="post" id="contact_form" style="padding-bottom: 1em;">
             <div class="form-group">
                 <label class="col-md-4 control-label">Nom</label>
                 <div class="col-md-4 inputGroupContainer">
@@ -98,58 +91,47 @@
                 </div>
             </div>
 
-            <div class="alert alert-success" role="alert" id="success_message">
-                Succès <i class="glyphicon glyphicon-thumbs-up"></i> Merci de nous avoir contacter, nous vous réponderons dans les plus brefs délais.
-            </div>
-
             <div class="form-group">
-            <label class="col-md-4 control-label"></label>
-            <div class="col-md-4">
-                <button class="w3-btn w3-blue-grey">Envoyer</button>
-                <br/>
-            </div>
+              <label class="col-md-4 control-label"></label>
+              <div class="col-md-4">
+                  <button class="w3-btn w3-blue-grey">Envoyer</button>
+                  <br/>
+              </div>
             </div>
           </form>
-        </div>
-      </div>
-    </div>
-
+    </section>
     <div id="footer-wrapper">
-      <div id="footer" class="container">
-        <div id="box1">
-          <div class="title">
-            <h2>Dernières actualités</h2>
+        <div id="footer" class="container">
+          <div id="news">
+            <div class="title">
+              <h2>Dernières actualités</h2>
+            </div>
+            <ul class="style1">
+              <li><a href="#">Actualité 1</a></li>
+              <li><a href="#">Actualité 2</a></li>
+              <li><a href="#">Actualité 3</a></li>
+              <li><a href="#">Actualité 4</a></li>
+              <li><a href="#">Actualité 5</a></li>
+            </ul>
+          </div>  
+          <div id="follow">
+            <div class="title">
+              <h2>Suivez-nous</h2>
+            </div>
+            <p>Vous pouvez suivre notre actualité sur les réseaux sociaux.</p>
+            <ul class="network">
+              <li>
+                <a href="#" class="icon icon-twitter"><span>Twitter</span></a>
+              </li>
+              <li>
+                <a href="#" class="icon icon-facebook"><span>Facebook</span></a>
+              </li>
+            </ul>
           </div>
-          <ul class="style1">
-            <li><a href="#">Actualité 1</a></li>
-            <li><a href="#">Actualité 2</a></li>
-            <li><a href="#">Actualité 3</a></li>
-            <li><a href="#">Actualité 4</a></li>
-            <li><a href="#">Actualité 5</a></li>
-          </ul>
-        </div>
-
-        <div id="box3">
-          <div class="title">
-            <h2>Suivez-nous</h2>
-          </div>
-          <p>Vous pouvez suivre notre actualité sur les réseaux sociaux.</p>
-          <ul class="contact">
-            <li>
-              <a href="#" class="icon icon-twitter"><span>Twitter</span></a>
-            </li>
-            <li>
-              <a href="#" class="icon icon-facebook"><span>Facebook</span></a>
-            </li>
-          </ul>
         </div>
       </div>
-    </div>
-    <div id="copyright" class="container">
-      <p>
-        &copy; Madera. Tous droits reservés. | Développement par
-        <a target="_blank" href="https://www.github.com/thibaultmaudet">Thibault MAUDET</a>.
-      </p>
-    </div>
+      <div id="copyright">
+        <p> &copy; Madera. Tous droits reservés. | Développement par <a target="_blank" href="https://www.github.com/thibaultmaudet">Thibault MAUDET</a>.</p>
+      </div>
   </body>
 </html>

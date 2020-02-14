@@ -1,101 +1,130 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="fr">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="robots" content="index, nofollow" />
     <title>Madera Corporation</title>
+    <link href="styles/fonts.css" rel="stylesheet" type="text/css" media="all" />    
     <link href="http://fonts.googleapis.com/css?family=Chivo:400,900" rel="stylesheet" />
-    <link href="default.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
-    <link rel="icon" href="./assets/logo.png" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="styles/default.css" />
+    <link rel="icon" href="assets/logo.png" />
+    <script src="scripts/menu.js"></script>
   </head>
   <body>
-    <div id="wrapper">
-      <div id="header-wrapper">
-        <div id="header" class="container">
-          <a href="./index.html"
-            ><img src="./assets/logo.png" alt="Logo Madera"
-          /></a>
+    <header>
+      <nav id="cssmenu">
+        <div class="logo">
+          <a href="index.html"><img src="assets/logo.png"/></a>
         </div>
-      </div>
-      <div id="menu-wrapper">
-        <div id="menu" class="container">
-          <ul>
-            <li class="current_page_item"><a href="#">Accueil</a></li>
-            <li><a href="./contact.html">Nous contacter</a></li>
-          </ul>
+        <div id="head-mobile"></div>
+        <div class="button"></div>
+        <ul>
+          <li class="active"><a href="#">Accueil</a></li>
+          <li>
+            <a>Agences</a>
+            <ul>
+                <li><a href="./locations/annecy.html">Annecy</a></li>
+                <li><a href="./locations/dax.html">Dax</a></li>
+                <li><a href="./locations/lille.html">Lille</a></li>
+                <li><a href="./locations/magasins.html">Magasins</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+        <h2 class="title"><span>Nos solutions</span></h2>
+        <div class="solutions">
+            <div class="solution">
+                <img src="./assets/TERTIAIRE.jpg" alt="tertiaire" />
+                <h2 style="text-decoration: underline; font-size: 1.5em; margin-bottom: 15px;">Tertiaire</h2>
+                <p>Des projets personnalisés à l'image de l'entreprise...</p>
+                <a href="http://madera-construction.fr/tertiaire">Découvrez nos réponses</a
+                >
+              </div>
+              <div class="solution">
+                <img src="./assets/ASSOCIATIONS.jpg" alt="association" />
+                <h2 style="text-decoration: underline; font-size: 1.5em; margin-bottom: 15px;">Associations</h2>
+                <p>Des projets rassembleurs pour se réunir, s'exprimer...</p>
+                <a href="http://madera-construction.fr/associations">Découvrez nos réponses</a>
+              </div>
+              <div class="solution">
+                <img src="./assets/loca-2.jpg"  alt="location" />
+                <h2 style="text-decoration: underline; font-size: 1.5em; margin-bottom: 15px;">Location</h2>
+                <p>
+                  Des produits spécifiques à hautes performances dédiés aux besoins
+                  temporaires.
+                </p>
+                <a href="http://madera-construction.fr/location">Découvrez nos réponses</a>
+              </div>
+              <div class="solution">
+                <img src="./assets/CRECHES-SCOLAIRE.jpg" alt="Crêches scolaires" />
+                <h2 style="text-decoration: underline; font-size: 1.5em; margin-bottom: 15px;">Crêches-scolaire</h2>
+                <p>
+                  Des projets agréables à vivre pour accueillir nos enfants dans les
+                  meilleurs conditions...
+                </p>
+                <a href="http://madera-construction.fr/creches-scolaire">Découvrez nos réponses</a
+                >
+              </div>
+              <div class="solution">
+                <img src="./assets/BAILLEURS-SOCIAUX.jpg" alt="Bailleur sociaux" />
+                <h2 style="text-decoration: underline; font-size: 1.5em; margin-bottom: 15px;">Bailleurs sociaux</h2>
+                <p>
+                  Des projets conceptualisés pour aborder différemment la rénovation des
+                  immeubles...
+                </p>
+                <a href="http://madera-construction.fr/bailleurs-sociaux">Découvrez nos réponses</a>
+              </div>
+              <div class="solution">
+                <img src="./assets/SECTEUR-AGRICOLE.jpg" alt="agricole" />
+                <h2 style="text-decoration: underline; font-size: 1.5em; margin-bottom: 15px;">Agricole</h2>
+                <p>
+                  Des projets cohérents, dans une approche globale de respect de la
+                  terre et de l'environnement.
+                </p>
+                <a href="http://madera-construction.fr/secteur-agricole">Découvrez nos réponses</a>
         </div>
-      </div>
-      <div id="page" class="container">
-        <div id="sidebar">
-          <div class="box2">
+    </section>
+    <section class="presentation">
+        <h2 class="title"><span>Présentation de l'entreprise</span></h2>
+        <p>Le groupe Madera a été créé en 1990, il est spécialisé dans la production de constructions en bois pour les particuliers (chalets, terrasses, extensions de maison …) et pour les collectivités (abris de bus, mobiliers urbains, aires de jeux…). Plus récemment, l’entreprise a développé son activité en s’orientant sur les constructions de maisons modulaires et écologiques en bois.</p>
+    </section>
+    <div id="footer-wrapper">
+        <div id="footer" class="container">
+          <div id="news">
             <div class="title">
-              <h2>Implémentation géographique</h2>
+              <h2>Dernières actualités</h2>
             </div>
-            <ul class="style2">
-              <li><a href="./locations/lille.html">Lille</a></li>
-              <li><a href="#">Dax</a></li>
-              <li><a href="#">Annecy</a></li>
-              <li><a href="#">Magasins</a></li>
+            <ul class="style1">
+              <li><a href="#">Actualité 1</a></li>
+              <li><a href="#">Actualité 2</a></li>
+              <li><a href="#">Actualité 3</a></li>
+              <li><a href="#">Actualité 4</a></li>
+              <li><a href="#">Actualité 5</a></li>
+            </ul>
+          </div>  
+          <div id="follow">
+            <div class="title">
+              <h2>Suivez-nous</h2>
+            </div>
+            <p>Vous pouvez suivre notre actualité sur les réseaux sociaux.</p>
+            <ul class="network">
+              <li>
+                <a href="#" class="icon icon-twitter"><span>Twitter</span></a>
+              </li>
+              <li>
+                <a href="#" class="icon icon-facebook"><span>Facebook</span></a>
+              </li>
             </ul>
           </div>
         </div>
-        <div id="content">
-          <div class="title">
-            <h2>Présentation de Madera</h2>
-          </div>
-          <p>
-            Le groupe Madera a été créé en 1990, il est spécialisé dans la
-            production de constructions en bois pour les particuliers (chalets,
-            terrasses, extensions de maison …) et pour les collectivités (abris
-            de bus, mobiliers urbains, aires de jeux…). Plus récemment,
-            l’entreprise a développé son activité en s’orientant sur les
-            constructions de maisons modulaires et écologiques en bois.
-          </p>
-        </div>
       </div>
-    </div>
-
-    <div id="footer-wrapper">
-      <div id="footer" class="container">
-        <div id="box1">
-          <div class="title">
-            <h2>Dernières actualités</h2>
-          </div>
-          <ul class="style1">
-            <li><a href="#">Actualité 1</a></li>
-            <li><a href="#">Actualité 2</a></li>
-            <li><a href="#">Actualité 3</a></li>
-            <li><a href="#">Actualité 4</a></li>
-            <li><a href="#">Actualité 5</a></li>
-          </ul>
-        </div>
-
-        <div id="box3">
-          <div class="title">
-            <h2>Suivez-nous</h2>
-          </div>
-          <p>Vous pouvez suivre notre actualité sur les réseaux sociaux.</p>
-          <ul class="contact">
-            <li>
-              <a href="#" class="icon icon-twitter"><span>Twitter</span></a>
-            </li>
-            <li>
-              <a href="#" class="icon icon-facebook"><span>Facebook</span></a>
-            </li>
-          </ul>
-        </div>
+      <div id="copyright">
+        <p> &copy; Madera. Tous droits reservés. | Développement par <a target="_blank" href="https://www.github.com/thibaultmaudet">Thibault MAUDET</a>.</p>
       </div>
-    </div>
-    <div id="copyright" class="container">
-      <p>
-        &copy; Madera. Tous droits reservés. | Développement par
-        <a target="_blank" href="https://www.github.com/thibaultmaudet"
-          >Thibault MAUDET</a
-        >.
-      </p>
-    </div>
   </body>
 </html>
